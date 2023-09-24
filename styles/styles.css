@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #555555;
+}
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size:3rem;
+    font-weight: lighter;
+}
+h3{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size:1rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 7.5%;
+    margin: 50px auto;
+    color: #CDC9C3;
+}
+
+/*Top Section*/
+.sub-head{
+    font-size: 1.7rem;
+}
+.top-container{
+    padding: 200px;
+    text-align: left;
+    background-color: #D8E4DC
+    
+}
+.underline{
+    text-decoration: underline;
+}
+.tower-image{
+    position: absolute;
+    top: 15px;
+    width: 600px;
+    right: 100px;
+}
+
+
+/*Middle Section*/
+.middle-container{
+    text-align: center;
+    background-color: #F9F7F0;
+}
+.profile{
+
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}
+.profile-p{
+    text-align: justify;   
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skill-row1{
+    margin-right: 50px;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+.skill-row2{
+    margin-right: 50px;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+.skill-row3{
+    margin-right: 50px;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+.modeling{
+    margin-right: 30px;
+    float: left;
+    width: 20%;
+}
+.prog{
+    margin-left: 30px;
+    float: right;
+    width: 20%;
+}
+.dota{
+    margin-right: 30px;
+    float: left;
+    width: 20%;
+}
+.contact-message{
+    margin: auto auto 50px auto;
+    width: 25%;
+    font-weight: 500;
+}
+.btn {
+    margin-bottom: 25px;
+    background: #5A5A5A;
+    background-image: -webkit-linear-gradient(top, #5A5A5A, #3E3F40);
+    background-image: -moz-linear-gradient(top, #5A5A5A, #3E3F40);
+    background-image: -ms-linear-gradient(top, #5A5A5A, #3E3F40);
+    background-image: -o-linear-gradient(top, #5A5A5A, #3E3F40);
+    background-image: -webkit-gradient(to bottom, #5A5A5A, #3E3F40);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #D8E4DC;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 8px 0 #000000;
+    -moz-box-shadow: 1px 1px 8px 0 #000000;
+    box-shadow: 1px 1px 8px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #555555 1px;
+    background: #9B9895;
+    background-image: -webkit-linear-gradient(top, #9B9895, #555555);
+    background-image: -moz-linear-gradient(top, #9B9895, #555555);
+    background-image: -ms-linear-gradient(top, #9B9895, #555555);
+    background-image: -o-linear-gradient(top, #9B9895, #555555);
+    background-image: -webkit-gradient(to bottom, #9B9895, #555555);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ /*Bottom container*/
+.bottom-container{
+    margin: 0px;
+    background-color: #555555;
+    text-align: center;
+    padding: 50px;
+}
+.footer-link{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #D8E4DC;
+}
+.footer-link:hover{
+    color: #FBF7F0;
+}
+.credit{
+    margin-top: 20px;
+    color: #D8E4DC;
+}
